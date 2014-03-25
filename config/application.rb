@@ -21,5 +21,9 @@ module Boat
     # config.i18n.default_locale = :de
 
     config.assets.initialize_on_precompile = false
+
+    require 'logger'
+    $LOG = Logger.new( 'boat.log', 0, 1024*1024)
+
   end
 end
