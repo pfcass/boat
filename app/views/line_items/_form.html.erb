@@ -2,7 +2,7 @@
   <div class="control-group">
     <%= f.label :purchased_on, :class => 'control-label' %>
     <div class="controls">
-      <%= f.text_field :purchased_on, :class => 'text_field' %>
+      <%= f.date_select :purchased_on %>
     </div>
   </div>
   <div class="control-group">
@@ -20,13 +20,13 @@
   <div class="control-group">
     <%= f.label :user_id, :class => 'control-label' %>
     <div class="controls">
-      <%= f.text_field :user_id, :class => 'text_field' %>
+      <%= collection_select(:line_item, :user_id, User.all.order(:email), :id, :email, :prompt => true) %>
     </div>
   </div>
   <div class="control-group">
     <%= f.label :category_id, :class => 'control-label' %>
     <div class="controls">
-      <%= f.text_field :category_id, :class => 'text_field' %>
+      <%= collection_select(:line_item, :category_id, Category.all.order(:name), :id, :name, :prompt => true) %>
     </div>
   </div>
 
