@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d566aa1-349a-4ae8-a200-c0799ccb103b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/line_items/index.html.erb" afterPath="$PROJECT_DIR$/app/views/line_items/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="boat.iws" />
@@ -157,8 +155,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="458" />
-    <option name="y" value="27" />
+    <option name="x" value="116" />
+    <option name="y" value="22" />
     <option name="width" value="1012" />
     <option name="height" value="740" />
   </component>
@@ -665,12 +663,16 @@
       <created>1395766650363</created>
       <updated>1395766650363</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="style">
+      <created>1395768139677</created>
+      <updated>1395768139677</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="458" y="27" width="1012" height="740" extended-state="0" />
-    <editor active="false" />
+    <frame x="116" y="22" width="1012" height="740" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -708,7 +710,8 @@
     <MESSAGE value="add link to modify password&#10;" />
     <MESSAGE value="add invitees as a means of controlling access" />
     <MESSAGE value="add link to invite someone" />
-    <option name="LAST_COMMIT_MESSAGE" value="add link to invite someone" />
+    <MESSAGE value="style" />
+    <option name="LAST_COMMIT_MESSAGE" value="style" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
